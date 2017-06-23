@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8>
+	<title>canvas</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body onload="setBrushSize( 1, 1, 2.5)">
+	<canvas id="canvas"> Der Browser unterstützt HTML5 nicht, canvas kann nicht angezeigt werden. </canvas>
+	<script src="js/main.js"></script>
+	<div id="toolbar">
+		<div id="blackColorSpot" class="tool colorSpot" onclick="setBrushColor('#000000')" style="background-color: #000000;"/></div>
+		<div id="whiteColorSpot" class="tool colorSpot" onclick="setBrushColor('#ffffff')" style="background-color: #ffffff;"></div>
+		<div id="blueColorSpot" class="tool colorSpot" onclick="setBrushColor('#0000ff')" style="background-color: #0000ff;"></div>
+		<div id="greenColorSpot" class="tool colorSpot" onclick="setBrushColor('#00ff00')" style="background-color: #00ff00;"></div>
+		<div id="greenColorSpot" class="tool colorSpot" onclick="setBrushColor('#ff0000')" style="background-color: #ff0000;"></div>
+		<div id="brushSize1px" class="tool sizeSpot" onclick="setBrushSize( 1, 1, 2.5)"></div>
+		<div id="brushSize5px" class="tool sizeSpot" onclick="setBrushSize( 5, 5, 5)"></div>
+		<div id="brushSize10px" class="tool sizeSpot" onclick="setBrushSize( 10, 10, 7.5)"></div>
+		<div id="brushSize15px" class="tool sizeSpot" onclick="setBrushSize( 15, 15, 10)"></div>
+		<div id="brushSize20px" class="tool sizeSpot" onclick="setBrushSize( 20, 20, 12.5)"></div>
+		<div id="brushSize25px" class="tool sizeSpot" onclick="setBrushSize( 25, 25, 15)"></div>
+	</div>
+</body>
+</html>
