@@ -27,6 +27,9 @@ canvas {
 	right: 5px;
 	width: 150px;
 	height: 100px;
+	color: white;
+	font-family: "Lucida Console";
+	font-size: 60px;
 }
 
 #toolbar {
