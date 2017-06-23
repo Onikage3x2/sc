@@ -21,6 +21,14 @@ canvas {
 	top: 7%;
 }
 
+#logo {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	width: 150px;
+	height: 100px;
+}
+
 #toolbar {
 	position: absolute;
 	width: 100%;
